@@ -6,7 +6,7 @@
     <title>Big Al Goes Social</title>
     <link rel="stylesheet" href="./Resources/CSS/index.css">
 </head>
-<body onload = "setGreets()">
+<body onload = "getPosts()">
     <script type = "text/javascript" src = "./Resources/Scripts/index.js"></script>
     <!--Navbar Section-->
     <nav class="navbar">
@@ -16,7 +16,7 @@
             <li><a href= "">Contact Us</a></li>
         </ul>
     </nav>
-
+ 
     <!--Banner Section-->
     <div class="banner">
         <h1>Big Al's Landing Page</h1>
@@ -29,14 +29,14 @@
     <div class="social-section">
         <span id="social" class="bold">Big Al Goes Social</span>
         <p class="bold">Big Al's 321 Social Media</p>
-        <form action="" onsubmit="return false" method = "post">
-        <input type="text" name = "post" id = "post"/>
-        <input type="submit" onclick = "addPost()"/>
+        <form action="" onsubmit="return false" method = "POST">
+            <input type="text" name = "text" id = "text"/>
+            <input type="submit" value = "Add Post" onclick = "postPost()"/>
         </form>
-        <div id="greets">
+        <div id="Posts">
 
         </div>
+        
     </div>
-
 </body>
 </html>

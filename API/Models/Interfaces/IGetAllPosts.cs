@@ -2,8 +2,8 @@ using System.Collections.Generic;
 
 namespace API.Models.Interfaces
 {
-    public interface IReadAllPosts
+    public interface IGetAllPosts
     {
-        public List<Posts> GetPosts();
+        List<BigAlsPosts> GetAllPosts();
     }
 }

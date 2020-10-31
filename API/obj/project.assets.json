@@ -909,7 +909,7 @@
           "ref/netstandard1.3/System.Console.dll": {}
         }
       },
-      "System.Data.SQLite.Core/1.0.113.2": {
+      "System.Data.SQLite.Core/1.0.113.5": {
         "type": "package",
         "dependencies": {
           "Stub.System.Data.SQLite.Core.NetStandard": "1.0.113"
@@ -3257,14 +3257,14 @@
         "system.console.nuspec"
       ]
     },
-    "System.Data.SQLite.Core/1.0.113.2": {
-      "sha512": "EOSQ6Y03d6VzPVQ75bHsYGK0EMPzEFsi/Ua3kaIyIclllBTPqXl4M1XTrKTik5aHLt+rqVw1ojZyAZti3hnO0Q==",
+    "System.Data.SQLite.Core/1.0.113.5": {
+      "sha512": "FXdVYYu1RydxsOE6yNAHJVJ6GCDEBO58soebjhOnL5bn0pCV3YW2UoODa6Apq7vATKc5xlmULnl+uF7zn8H5ug==",
       "type": "package",
-      "path": "system.data.sqlite.core/1.0.113.2",
+      "path": "system.data.sqlite.core/1.0.113.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "system.data.sqlite.core.1.0.113.2.nupkg.sha512",
+        "system.data.sqlite.core.1.0.113.5.nupkg.sha512",
         "system.data.sqlite.core.nuspec"
       ]
     },
@@ -6131,7 +6131,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.4",
-      "System.Data.SQLite.Core >= 1.0.113.2"
+      "System.Data.SQLite.Core >= 1.0.113.5"
     ]
   },
   "packageFolders": {
@@ -6177,7 +6177,7 @@
           },
           "System.Data.SQLite.Core": {
             "target": "Package",
-            "version": "[1.0.113.2, )"
+            "version": "[1.0.113.5, )"
           }
         },
         "imports": [
