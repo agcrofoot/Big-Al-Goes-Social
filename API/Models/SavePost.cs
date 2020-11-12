@@ -44,8 +44,9 @@ namespace API.Models
 
             using var cmd = new SQLiteCommand(con);
 
-            cmd.CommandText = @"UPDATE BigAlsPosts SET text = @text WHERE id = @id";
+            cmd.CommandText = @"UPDATE BigAlsPosts SET text = @text, timestamp = @timestamp WHERE id = @id";
             cmd.Parameters.AddWithValue("@text", value.Text);
+            cmd.Parameters.AddWithValue("@timestamp", DateTime.Now.ToString());
             cmd.Parameters.AddWithValue("@id", id);
             cmd.Prepare();
             cmd.ExecuteNonQuery();
